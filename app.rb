@@ -24,6 +24,6 @@ class App < Sinatra::Base
     @num2 = params[:num2]
     # erb :multiply
     num = @num2.to_i * @num1.to_i
-    num.to_i
+    num.to_s
   end
 end
